@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: karim;
+}
+
+body {
+    direction: rtl;
+    background-image: url(../media/bgexample.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: karim;
+    src: url(../fonts/Qs_Iranyekan.ttf);
+}
+
+
+/*hover navbar all*/
+div.salam>nav>div>div>ul>li>a:hover {
+    border-bottom: 3px solid mediumseagreen;
+}
+
+/*div koli zir navbar all*/
+@media screen and (max-width: 576px) {
+    div.salam>div>div.bottom-container>div {
+        font-size: small;
+    }
+
+    .navbar>div>a {
+        font-size: medium;
+    }
+}
+
+div.salam>div {
+    height: fit-content;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.438);
+}
+
+/*ghesmat balaii (sabz) home*/
+div.salam>div>div.top-container {
+    background-color: mediumseagreen;
+}
+
+div.salam>div>div.top-container>div {
+    height: 200px;
+}
+
+div.salam>div>div.top-container>div>div>a {
+    height: 35px;
+    width: 35px;
+}
+
+div.salam>div>div.top-container>div>div>a>img {
+    width: 50%;
+    height: 50%;
+    filter: opacity(50%);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        height: 80px;
+    }
+
+    div.salam>div>div.top-container>img {
+        width: 25%;
+        transform: translateY(40px);
+        transition-duration: 500ms;
+        box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.274);
+    }
+
+    div.salam>div>div.top-container>img:hover {
+        transform: translateY(30px);
+        transition-duration: 500ms;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div.salam>div>div.top-container>img {
+        width: 200px;
+    }
+}
+
+
+
+/*ghesmat ziri (sefid) home*/
+div.salam>div>div.bottom-container>div>a {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.548);
+}
+
+
+
+/*resume*/
+div.salam>div>div.topic {
+    background-color: mediumseagreen;
+}
+
+div.salam>div>div.resumebox1>div>div>div>div.khatavalinresume {
+    width: 12px;
+    height: 12px;
+    transform: translateX(42px);
+}
+
+div.salam>div>div.resumebox1>div>div>div>div.khatdovominresume {
+    width: 14px;
+    transform: translateX(30px) translateY(-7px);
+}
+
+div.salam>div>div.resumebox2>div>div {
+    height: 10px;
+}
+
+
+/*contact*/
+div.salam>div>div.topic {
+    background-color: mediumseagreen;
+}
+
+div.salam>div>div.contact>div>div:nth-of-type(1) {
+    height: 200px;
+}
+
+div.salam>div>div.contact>div>div>div {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(236, 236, 236);
+}
+
+div.salam>div>div.contact>div>form>div>div {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+}
+
+div.salam>div>div.contact>div>form>div:nth-child(3)>div {
+    width: 40px;
+    height: 150px;
+}
+
+div.salam>div>div.contact>div>form>div>textarea {
+    height: 150px;
+    width: 100%;
+}
+
+div.salam>div>div.contact>div>form>div>input {
+    width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+    div.salam>div>div.contact>div>div {
+        font-size: 12px;
+    }
+}
