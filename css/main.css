@@ -26,7 +26,7 @@ div.salam>nav>div>div>ul>li>a:hover {
 /*div koli zir navbar all*/
 @media screen and (max-width: 576px) {
     div.salam>div>div.bottom-container>div {
-        font-size: small;
+        font-size: medium;
     }
 
     .navbar>div>a {
@@ -114,6 +114,16 @@ div.salam>div>div.resumebox2>div>div {
 }
 
 
+/*projects*/
+div.salam>div>div.undertopicprojects>div>div>div>div {
+    width: 33%;
+    height: 200px;
+    background-color: blueviolet;
+
+    margin: 1px;
+}
+
+
 /*contact*/
 div.salam>div>div.topic {
     background-color: mediumseagreen;
@@ -151,6 +161,14 @@ div.salam>div>div.contact>div>form>div>input {
 
 @media screen and (max-width: 440px) {
     div.salam>div>div.contact>div>div {
-        font-size: 12px;
+        font-size: 16px;
     }
+}
+
+input:focus {
+    outline: unset;
+}
+
+textarea:focus {
+    outline: unset;
 }
