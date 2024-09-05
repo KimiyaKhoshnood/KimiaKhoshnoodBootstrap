@@ -115,15 +115,28 @@ div.salam>div>div.resumebox2>div>div {
 
 
 /*projects*/
-div.salam>div>div.undertopicprojects>div>div>div>div {
-    width: 33%;
-    height: 200px;
-    background-color: blueviolet;
+/* div.salam>div>div.undertopicprojects>div>div>div>div {
+    height: auto;
+} */
 
-    margin: 1px;
+@media screen and (min-width: 992px) {
+    .projectPics > div > div {
+        flex-wrap: nowrap;
+    }
 }
 
+@media screen and (max-width: 992px) {
+    .projectPics > div > div {
+        flex-wrap: wrap;
+    }
+}
 
+.nav-pills > li.nav-item > a.nav-link.active{
+    background-color: mediumseagreen;
+}
+li.nav-item > a.nav-link {
+    color: lightslategray;
+}
 /*contact*/
 div.salam>div>div.topic {
     background-color: mediumseagreen;
